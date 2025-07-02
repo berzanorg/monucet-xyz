@@ -1,0 +1,11 @@
+{
+  "name": "moncet-xyz",
+  "version": "1.0.0",
+  "workspaces": [
+    "faucet",
+    "site"
+  ],
+  "devDependencies": {
+    "faucet": "workspace:*"
+  }
+}
