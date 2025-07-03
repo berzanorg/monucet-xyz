@@ -7,5 +7,6 @@
   ],
   "devDependencies": {
     "faucet": "workspace:*"
-  }
+  },
+  "packageManager": "pnpm@10.11.1"
 }
