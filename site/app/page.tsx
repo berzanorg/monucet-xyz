@@ -213,7 +213,7 @@ export default function Home() {
                   return
                 }
                 open(
-                  `https://discord.com/oauth2/authorize?response_type=code&client_id=${'1390029379022749868'}&scope=identify%20guilds.join&state=${address}&redirect_uri=${'https://api.monucet.xyz/discord'}&prompt=consent&integration_type=0`,
+                  `https://discord.com/oauth2/authorize?response_type=code&client_id=${'1390029379022749868'}&scope=identify+guilds+guilds.members.read&state=${address}&redirect_uri=${'https://api.monucet.xyz/discord'}&prompt=consent&integration_type=0`,
                   '_self',
                 )
               }}
